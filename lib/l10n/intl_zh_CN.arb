@@ -2,8 +2,17 @@
   "title" : "Flutter Github 示例",
   "home" : "Github 客户端",
   "login" : "登录",
-  "login_tips" : "登录您的GitHub账号"
-
+  "login_tips" : "登录您的GitHub账号",
+  "no_description" : "没有项目描述",
+  "no_more" : "没有更多了",
+  "theme" : "主题",
+  "language" : "语言",
+  "logout" : "退出登录",
+  "tips" : "提示",
+  "logout_tips" : "确定退出GitHub账号吗？",
+  "cancel" : "取消",
+  "confirm" : "确认",
+  "auto" : "自动"
 
 
 }

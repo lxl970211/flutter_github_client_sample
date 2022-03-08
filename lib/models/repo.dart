@@ -12,7 +12,7 @@ class Repo {
   late User owner;// 项目拥有者，结构见"user.json"
   Repo? parent;// 如果是fork的项目，则此字段表示fork的父项目信息
   late bool private;// 是否私有项目
-  late String description;//项目描述
+  late String? description;//项目描述
   late bool fork;// 该项目是否为fork的项目
   String? language;//该项目的主要编程语言
   late num forks_count;// fork了该项目的数量
@@ -28,4 +28,9 @@ class Repo {
   
   factory Repo.fromJson(Map<String,dynamic> json) => _$RepoFromJson(json);
   Map<String, dynamic> toJson() => _$RepoToJson(this);
+
+
+
+
+
 }

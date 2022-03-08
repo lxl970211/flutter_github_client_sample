@@ -22,9 +22,19 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "auto": MessageLookupByLibrary.simpleMessage("自动"),
+        "cancel": MessageLookupByLibrary.simpleMessage("取消"),
+        "confirm": MessageLookupByLibrary.simpleMessage("确认"),
         "home": MessageLookupByLibrary.simpleMessage("Github 客户端"),
+        "language": MessageLookupByLibrary.simpleMessage("语言"),
         "login": MessageLookupByLibrary.simpleMessage("登录"),
         "login_tips": MessageLookupByLibrary.simpleMessage("登录您的GitHub账号"),
+        "logout": MessageLookupByLibrary.simpleMessage("退出登录"),
+        "logout_tips": MessageLookupByLibrary.simpleMessage("确定退出GitHub账号吗？"),
+        "no_description": MessageLookupByLibrary.simpleMessage("没有项目描述"),
+        "no_more": MessageLookupByLibrary.simpleMessage("没有更多了"),
+        "theme": MessageLookupByLibrary.simpleMessage("主题"),
+        "tips": MessageLookupByLibrary.simpleMessage("提示"),
         "title": MessageLookupByLibrary.simpleMessage("Flutter Github 示例")
       };
 }

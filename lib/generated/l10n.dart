@@ -89,6 +89,106 @@ class S {
       args: [],
     );
   }
+
+  /// `not has Description`
+  String get no_description {
+    return Intl.message(
+      'not has Description',
+      name: 'no_description',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `not has more`
+  String get no_more {
+    return Intl.message(
+      'not has more',
+      name: 'no_more',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Themes`
+  String get theme {
+    return Intl.message(
+      'Themes',
+      name: 'theme',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Language`
+  String get language {
+    return Intl.message(
+      'Language',
+      name: 'language',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Logout`
+  String get logout {
+    return Intl.message(
+      'Logout',
+      name: 'logout',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Tips`
+  String get tips {
+    return Intl.message(
+      'Tips',
+      name: 'tips',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `logout Github Account?`
+  String get logout_tips {
+    return Intl.message(
+      'logout Github Account?',
+      name: 'logout_tips',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Cancel`
+  String get cancel {
+    return Intl.message(
+      'Cancel',
+      name: 'cancel',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Confirm`
+  String get confirm {
+    return Intl.message(
+      'Confirm',
+      name: 'confirm',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Auto`
+  String get auto {
+    return Intl.message(
+      'Auto',
+      name: 'auto',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

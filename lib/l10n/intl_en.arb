@@ -2,5 +2,15 @@
   "title" : "Flutter Github Sample",
   "home" : "Github Client",
   "login" : "Login",
-  "login_tips" : "Login your github"
+  "login_tips" : "Login your github",
+  "no_description" : "not has Description",
+  "no_more" : "not has more",
+  "theme" : "Themes",
+  "language" : "Language",
+  "logout" : "Logout",
+  "tips" : "Tips",
+  "logout_tips" : "logout Github Account?",
+  "cancel" : "Cancel",
+  "confirm" : "Confirm",
+  "auto" : "Auto"
 }

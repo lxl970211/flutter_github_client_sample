@@ -6,7 +6,9 @@ import 'package:test_stu/states/LocalModel.dart';
 import 'package:test_stu/states/ThemeModel.dart';
 import 'package:test_stu/states/UserModel.dart';
 import 'package:test_stu/widgets/home/home_route.dart';
+import 'package:test_stu/widgets/language/language.dart';
 import 'package:test_stu/widgets/login/login_route.dart';
+import 'package:test_stu/widgets/themes/theme.dart';
 
 
 
@@ -35,7 +37,10 @@ class MyApp extends StatelessWidget {
           GlobalWidgetsLocalizations.delegate,
         ],
         routes: <String, WidgetBuilder>{
-          'login' : (context) => LoginRoute()
+          'login' : (context) => LoginRoute(),
+          'themes' : (context) => MyThemes(),
+          'language' : (context) => LanguageRoute()
+
         },
         home: HomeRoute(),
       );
